@@ -4864,7 +4864,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "Microsoft.EntityFrameworkCore.InMemory",
+      "Microsoft.EntityFrameworkCore.InMemory >= 3.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.0.0"
     ]
   },
@@ -4874,11 +4874,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/briantam23/Code/TodoApi/TodoApi.csproj",
+      "projectUniqueName": "/Users/briantam23/Code/Practice/ASP.NET-Core-practice/TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "/Users/briantam23/Code/TodoApi/TodoApi.csproj",
+      "projectPath": "/Users/briantam23/Code/Practice/ASP.NET-Core-practice/TodoApi.csproj",
       "packagesPath": "/Users/briantam23/.nuget/packages/",
-      "outputPath": "/Users/briantam23/Code/TodoApi/obj/",
+      "outputPath": "/Users/briantam23/Code/Practice/ASP.NET-Core-practice/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/briantam23/.nuget/NuGet/NuGet.Config"
@@ -4905,7 +4905,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[3.0.0, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
